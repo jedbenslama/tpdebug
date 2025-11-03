@@ -3,7 +3,7 @@
 int main() {
     char nom[4];
     printf("Nom ? ");
-    scanf("%s", nom); 
+    fgets(nom, 4, stdin);
     printf("Bonjour %s\n", nom);
     return 0;
 }
