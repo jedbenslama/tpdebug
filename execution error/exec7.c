@@ -3,8 +3,8 @@
 int main() {
     int distance_km = 100;
     int vitesse_kmh = 50;
-    int temps = distance_km / vitesse_kmh; 
-    int minutes = temps * 60;
-    printf("minutes = %d\n", minutes); 
+    float temps = (float)distance_km / (float)vitesse_kmh; 
+    float minutes = temps * 60.0;
+    printf("minutes = %d\n", (int)minutes); 
     return 0;
 }
